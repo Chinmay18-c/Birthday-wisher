@@ -24,7 +24,7 @@ if today_tuple in birthdays_dict:
         contents = lf.read()
         contents = contents.replace(PLACEHOLDER, name)
 
-    my_email = "jainchinmay2005@gmail.com"
+    my_email = "johndoe@example.com"
     with open("password.env") as f:
         password = f.read().strip()
 
